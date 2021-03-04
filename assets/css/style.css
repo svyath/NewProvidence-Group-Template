@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color: white;
+    --secondary-color: black;
+    --main-font: 'Courier New', Courier, monospace;
+    --font-color: blue;
+
+}
