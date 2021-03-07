@@ -8,5 +8,63 @@ body{
     --secondary-color: black;
     --main-font: 'Courier New', Courier, monospace;
     --font-color: blue;
-
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px 0 15px;
+}
+.mapFeature {
+    padding: 206px 0 198px 0;
+}
+.mapContent {
+    position: relative;
+	z-index: 1;
+	max-width: 470px;
+}
+.mapTitle {
+    font-family: 'VarelaRound', sans-serif;
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+.mapInfo {
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+.mapInfo p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.partnersTitle {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+    margin: 0;
+    padding-top: 28px;
+    padding-bottom: 31px;
+}
+.partnersLogos a:first-child {
+    margin-right: 31px;
+}
+.worldMap{
+    background-image: url('../img/world_map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+	top: 206px;
+    right: 0;
+    width: 842px;
+    height: 496px;    
 }
