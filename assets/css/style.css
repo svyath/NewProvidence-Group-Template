@@ -81,6 +81,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #3a3d4b;
+    margin-top: 0;
+    margin-bottom: 37px;
 }
 .readyToBuy p:first-of-type span {
     font-weight: 700;
@@ -91,6 +93,8 @@ body{
     line-height: 52px;
     font-weight: 400;
     color: #3a3d4b;
+    margin-top: 0;
+    margin-bottom: 47px;
 }
 .readyToBuy form {
 	display: inline-block;
@@ -127,6 +131,10 @@ body{
     border: none;
     outline: none;
 }
+.readyToBuy form button:hover {
+    background-color: cornflowerblue;
+    transition: 0.2s;
+}
 .fa-arrow-right {
     color: #fff;
     padding-left: 18px;
@@ -141,6 +149,8 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: #3a3d4b;
+    margin-top: 0;
+    margin-bottom: 22px;
 }
 .appStoreBtn {
     display: inline-block;
@@ -167,4 +177,9 @@ body{
 	left: 27px;
 	color: #fff;
 	font-size: 34px;
+}
+.appStoreBtn:hover {
+    border: 3px solid;
+    border-color: cornflowerblue;
+    transition: 0.2s;
 }
