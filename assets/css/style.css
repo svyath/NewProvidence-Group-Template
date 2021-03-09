@@ -306,7 +306,7 @@ body{
 
 /* Subsciption Section End */
 
-/* Footer start */
+/* Footer Section start */
 
 .divider {
     height: 1px;
@@ -420,9 +420,32 @@ body{
 }
 
 .getCraftWorkLink {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+}
+
+.getCraftWorkLink a {
+    color: #3b55e6;
 }
 
 .author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+    font-size: 9px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
 }
 
-/* Footer End */
+.author img {
+    margin: 0 10px 0 10px;
+}
+
+/* Footer Section End */
