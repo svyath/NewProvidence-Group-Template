@@ -19,7 +19,7 @@ body{
     max-width: 1200px;
     padding: 0 15px 0 15px;
 }
-/*Map Section Start*/
+/* Map Section Start */
 
 .mapFeature {
     padding: 200px 0 200px 0;
@@ -83,9 +83,9 @@ body{
     height: 496px;    
 }
 
-/*Map Section End*/
+/* Map Section End */
 
-/*Ready to Buy Section Start*/
+/* Ready to Buy Section Start */
 
 .readyToBuy {
     padding: 90px 0px 85px 0px;
@@ -221,14 +221,9 @@ body{
 	font-size: 34px;
 }
 
-.appStoreBtn:hover {
-    border: 3px solid #6fc754;
-    transition: 0.2s;
-}
+/* Ready to Buy Section End */
 
-/*Ready to Buy Section End*/
-
-/*Subscription Section Start*/
+/* Subscription Section Start */
 
 .subscription{
     height: auto;
@@ -310,3 +305,147 @@ body{
 }
 
 /* Subsciption Section End */
+
+/* Footer Section start */
+
+.divider {
+    height: 1px;
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.footerContent {
+    display: flex;
+	justify-content: space-between;
+    margin-top: 90px;
+}
+.mainInfo {
+    max-width: 250px;
+}
+
+.mainInfo p {
+    margin-top: 35px;
+    margin-bottom: 32px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+}
+.mainInfo a img {
+    display: block;
+}
+
+.socialLinks {
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+.socialLinks a {
+	margin-right: 25px;
+}
+
+.socialLinks a:last-of-type {
+	margin-right: 0;
+}
+
+.socialLinks a i {
+	font-size: 16px;
+	color: #bdbec0;
+}
+
+.socialLinks a i:hover {
+    color: #6fc754;
+	opacity: 0.8;
+    transition: 0.2s;
+}
+
+.breadcrumbs {
+    display: flex;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs ul:nth-of-type(1) {
+	margin-right: 90px;
+}
+
+.breadcrumbs ul:nth-of-type(2) {
+	margin-right: 65px;
+}
+
+.breadcrumbs ul:nth-of-type(3) {
+	margin-right: 75px;
+}
+
+.breadcrumbs ul li {
+    margin-bottom: 5px;
+}
+
+.breadcrumbs ul li:last-child {
+	margin-bottom: 0;
+}
+
+.breadcrumbs ul li:first-child {
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.breadcrumbs ul li a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.breadcrumbs ul li a:hover {
+	text-decoration: underline;
+}
+
+.copyrights {
+    padding: 35px 0 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.getCraftWorkLink {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+}
+
+.getCraftWorkLink a {
+    color: #3b55e6;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+    font-size: 9px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.author img {
+    margin: 0 10px 0 10px;
+}
+
+/* Footer Section End */
