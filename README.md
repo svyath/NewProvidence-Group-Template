@@ -7,3 +7,5 @@
     3 git pull 
     4 git checkout your_branch
     5 git merge dev - this merges changes from local dev to the your_branch.
+    6 resolve save conflicts, if they appear
+    7 git commit -m "" - commit your merge
