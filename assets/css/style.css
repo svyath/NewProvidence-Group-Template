@@ -4,6 +4,7 @@ body{
     margin: 0;
     padding: 0;
 }
+
 :root{
     --main-color: white;
     --secondary-color: #f4f4f5;
@@ -18,15 +19,18 @@ body{
     max-width: 1200px;
     padding: 0 15px 0 15px;
 }
+/*Map Section Start*/
 
 .mapFeature {
     padding: 206px 0 198px 0;
 }
+
 .mapContent {
     position: relative;
 	z-index: 1;
 	max-width: 470px;
 }
+
 .mapTitle {
     font-family: var(--main-font);
     font-size: 42px;
@@ -36,6 +40,7 @@ body{
     margin-top: 0;
     margin-bottom: 64px;
 }
+
 .mapInfo {
     font-family: var(--secondary-font);
     font-size: 20px;
@@ -43,10 +48,12 @@ body{
     font-weight: 400;
     color: #8c8f94;
 }
+
 .mapInfo p {
     margin-top: 0;
     margin-bottom: 40px;
 }
+
 .partnersTitle {
     font-family: var(--secondary-font);
     font-size: 12px;
@@ -59,9 +66,11 @@ body{
     padding-top: 28px;
     padding-bottom: 31px;
 }
+
 .partnersLogos a:first-child {
     margin-right: 31px;
 }
+
 .worldMap{
     background-image: url('../img/world_map.png');
     background-position: center;
@@ -73,11 +82,17 @@ body{
     width: 842px;
     height: 496px;    
 }
+
+/*Map Section End*/
+
+/*Ready to Buy Section Start*/
+
 .readyToBuy {
     padding: 89px 0px 86px 0px;
     background-color: #f5f5f8;
     text-align: center;
 }
+
 .readyToBuy p:first-of-type {
     opacity: 0.5;
     font-family: var(--secondary-font);
@@ -90,9 +105,11 @@ body{
     margin-top: 0;
     margin-bottom: 37px;
 }
+
 .readyToBuy p:first-of-type span {
     font-weight: 700;
 }
+
 .readyToBuy h3 {
     font-family: var(--main-font);
     font-size: 42px;
@@ -102,11 +119,13 @@ body{
     margin-top: 0;
     margin-bottom: 47px;
 }
+
 .readyToBuy form {
 	display: inline-block;
 	margin-bottom: 66px;
     position: relative;
 }
+
 .readyToBuy form input {
 	width: 475px;
     height: 50px;
@@ -120,6 +139,7 @@ body{
     color: #3a3d4b;
     padding-left: 25px;
 }
+
 .readyToBuy form button {
 	width: 164px;
 	height: 42px;
@@ -137,15 +157,24 @@ body{
     border: none;
     outline: none;
 }
+
 .readyToBuy form button:hover {
-    background-color: cornflowerblue;
+    color: #6fc754;
+    background-color: white;
+    border: 1px solid #6fc754;
     transition: 0.2s;
 }
+
 .fa-arrow-right {
     color: #fff;
     padding-left: 18px;
     font-size: 13px;
 }
+
+.readyToBuy form button:hover .fa-arrow-right {
+    color: #6fc754;
+}
+
 .readyToBuy p:last-of-type {
     opacity: 0.3;
     font-family: var(--secondary-font);
@@ -158,6 +187,9 @@ body{
     margin-top: 0;
     margin-bottom: 22px;
 }
+
+/*Ready to Buy Section End*/
+
 .appStoreBtn {
     display: inline-block;
     position: relative;
@@ -171,10 +203,12 @@ body{
     text-decoration: none;
     padding: 11px 41px 14px 69px;
 }
+
 .appStoreBtn span {
     font-size: 23px;
     line-height: 22px;
 }
+
 .appStoreBtn::before {
     font-family: 'Font Awesome 5 Brands'; 
     font-weight: 400; 
@@ -184,6 +218,7 @@ body{
 	color: #fff;
 	font-size: 34px;
 }
+
 .appStoreBtn:hover {
     border: 3px solid;
     border-color: cornflowerblue;
@@ -191,6 +226,7 @@ body{
 }
 
 /*Subscription Section Start*/
+
 .subscription{
     height: auto;
     width: 100%;
@@ -224,6 +260,7 @@ body{
     color: var(--secondary-font-color);
     text-align: center;
 }
+
 .subscription .container form{
     position: relative;
     margin: 30px  0;
@@ -233,7 +270,6 @@ body{
     align-items: center;
     width: 570px;
     height: 40px;
-
 }
 
 .subscription .container form button{
@@ -251,8 +287,6 @@ body{
     border: 1px solid white;
     padding: 5px 20px;
     position: absolute;
-
-
 }
 
 .subscription .container form button:hover{
@@ -261,16 +295,12 @@ body{
     border: 1px solid #6fc754;
 }
 
-
-
 .subscription .container form input[type = "email"]{
     border: 2px solid white;
     border-radius: 25px;
     padding: 10px 20px;
     width: 100%;
-    margin: 0 0 0 1px;
-    
-        
+    margin: 0 0 0 1px;      
 }
 
 .subscription .container form input[type = "email"]:focus{
@@ -278,5 +308,4 @@ body{
     outline: none;
 }
 
-/* Subsciptio section end */
-
+/* Subsciption Section End */
