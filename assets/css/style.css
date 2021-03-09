@@ -1,18 +1,24 @@
+@import "fonts.css";
+
 body{
     margin: 0;
     padding: 0;
 }
 :root{
     --main-color: white;
-    --secondary-color: black;
-    --main-font: 'Courier New', Courier, monospace;
-    --font-color: blue;
+    --secondary-color: #f4f4f5;
+    --main-font: 'Varela Round', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+    --font-color: black;
+    --secondary-font-color: #8c8f94;
 }
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
     padding: 0 15px 0 15px;
 }
+
 .mapFeature {
     padding: 206px 0 198px 0;
 }
@@ -22,7 +28,7 @@ body{
 	max-width: 470px;
 }
 .mapTitle {
-    font-family: 'Varela Round', sans-serif;
+    font-family: var(--main-font);
     font-size: 42px;
     line-height: 52px;
     font-weight: 400;
@@ -31,7 +37,7 @@ body{
     margin-bottom: 64px;
 }
 .mapInfo {
-    font-family: 'Lato', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 20px;
     line-height: 28px;
     font-weight: 400;
@@ -42,7 +48,7 @@ body{
     margin-bottom: 40px;
 }
 .partnersTitle {
-    font-family: 'Lato', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 12px;
     line-height: 22px;
     font-weight: 700;
@@ -74,7 +80,7 @@ body{
 }
 .readyToBuy p:first-of-type {
     opacity: 0.5;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 12px;
     line-height: 22px;
     font-weight: 400;
@@ -88,7 +94,7 @@ body{
     font-weight: 700;
 }
 .readyToBuy h3 {
-    font-family: 'Varela Round', sans-serif;
+    font-family: var(--main-font);
     font-size: 42px;
     line-height: 52px;
     font-weight: 400;
@@ -107,7 +113,7 @@ body{
     border: 1px solid #22232828;
     border-radius: 25px;
 	background: transparent;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
@@ -122,7 +128,7 @@ body{
 	border-radius: 21px;
 	background-color: #6fc754;
 	color: #fff;
-	font-family: 'Lato', sans-serif;
+	font-family: var(--secondary-font);
 	font-size: 16px;
     line-height: 1.2;
     font-weight: 400;
@@ -142,7 +148,7 @@ body{
 }
 .readyToBuy p:last-of-type {
     opacity: 0.3;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--secondary-font);
     font-size: 12px;
     line-height: 1.2;
     font-weight: 400;
@@ -157,7 +163,7 @@ body{
     position: relative;
 	background-color: #131315;
 	border-radius: 30px;
-	font-family: 'Lato', sans-serif;
+	font-family: var(--secondary-font);
     font-size: 12px;
     font-weight: 400;
     color: #fff;
@@ -183,3 +189,94 @@ body{
     border-color: cornflowerblue;
     transition: 0.2s;
 }
+
+/*Subscription Section Start*/
+.subscription{
+    height: auto;
+    width: 100%;
+    margin:  90px 0 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.subscription .container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.subscription .container h2{
+    font-size: 42px;
+    font-family: var(--main-font);
+    margin: 0 0 20px 0;
+    color: var(--font-color);
+    text-align: center;   
+}
+
+.subscription .container p{
+    margin: 0;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    text-align: center;
+}
+.subscription .container form{
+    position: relative;
+    margin: 30px  0;
+    border: 1px solid #22232828;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 40px;
+
+}
+
+.subscription .container form button{
+    cursor: pointer;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color: white;
+    background-color: #6fc754;
+    width: 20%;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px 20px;
+    position: absolute;
+
+
+}
+
+.subscription .container form button:hover{
+    color: #6fc754;
+    background-color: white;
+    border: 1px solid #6fc754;
+}
+
+
+
+.subscription .container form input[type = "email"]{
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0 0 0 1px;
+    
+        
+}
+
+.subscription .container form input[type = "email"]:focus{
+    border: none;
+    outline: none;
+}
+
+/* Subsciptio section end */
+
