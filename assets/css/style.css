@@ -126,7 +126,7 @@ body{
     position: relative;
 }
 
-.readyToBuy form input {
+.readyToBuy form input[type = "email"] {
 	width: 475px;
     height: 50px;
     border: 1px solid #22232828;
@@ -138,6 +138,10 @@ body{
     font-weight: 400;
     color: #3a3d4b;
     padding-left: 25px;
+}
+
+.readyToBuy form input[type = "email"]:focus{
+    outline: none;
 }
 
 .readyToBuy form button {
@@ -188,8 +192,6 @@ body{
     margin-bottom: 22px;
 }
 
-/*Ready to Buy Section End*/
-
 .appStoreBtn {
     display: inline-block;
     position: relative;
@@ -220,10 +222,11 @@ body{
 }
 
 .appStoreBtn:hover {
-    border: 3px solid;
-    border-color: cornflowerblue;
+    border: 3px solid #6fc754;
     transition: 0.2s;
 }
+
+/*Ready to Buy Section End*/
 
 /*Subscription Section Start*/
 
