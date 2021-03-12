@@ -223,6 +223,123 @@ body{
 
 /* Ready to Buy Section End */
 
+/* Customers Section Start */
+
+.customersInner {
+    text-align: center;
+    padding-top: 130px;
+    position: relative;
+}
+  
+.imagesTrack {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 130px;
+    margin: 0 auto;
+}
+  
+.customers .customerImage {
+    border-radius: 50%;
+    box-shadow: 14px 38px 40px 0px rgba(92,95,101,0.28);
+    width: 90px;
+    height: 90px;
+    opacity: 0.4;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+  
+.customers .imgActive {
+    width: 130px;
+    height: 130px;
+    opacity: 1;
+}
+  
+.customers .sliderControl {
+    position: absolute;
+    top: 175px;
+}
+  
+.customers .moveLeft {
+    left: 20px;
+    opacity: 0.4;
+    transition: opacity linear 0.2s;
+}
+
+.customers .moveLeft:hover {
+    opacity: 1;
+}
+
+.customers .moveRight {
+    right: 20px;
+    opacity: 0.4;
+    transition: opacity linear 0.2s;
+}
+
+.customers .moveRight:hover {
+    opacity: 1;
+}
+
+.testimonials {
+    min-width: 570px;
+    margin: 50px 0 30px;
+}
+
+.customers h4 {
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #26272d;
+    margin: 75px 0 50px 0;
+}
+
+.customers h5 {
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+    margin-top: 70px;
+}
+
+.customers p {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+    margin: 0 0 30px 0;
+}
+
+.fa-star {
+    font-size: 20px;
+}
+
+.emptyStar {
+    color: #26272d;
+}
+
+.goldStar {
+    color: #f2bc3b;
+}
+  
+.sliderContainer {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 570px;
+}
+  
+.sliderTrack {
+    display: flex;
+    flex-direction: row;
+    transition: all 0.5s ease;
+}
+      
+/* Customers Section End */
+
 /* Subscription Section Start */
 
 .subscription{
