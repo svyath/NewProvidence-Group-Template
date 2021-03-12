@@ -11,11 +11,10 @@
 </head>
 <body>
     <header>
-        <nav>
+        <div class="container">
+            <nav>
 
-        </nav>
-        <div class="headerContainer">
-
+            </nav>
         </div>
     </header>
     <section class="feature">
@@ -54,7 +53,6 @@
     </section>
     <section class="readyToBuy">
         <div class="container">
-
             <p><span>New</span>Providence</p>
             <h3>Get it to your smartphone</h3>
             <form>
@@ -63,12 +61,68 @@
             </form>
             <p>or Download From</p>
             <a href="https://www.apple.com/app-store/" class="appStoreBtn">Download on the<br><span>App Store</span></a>
-
         </div>
     </section>
     <section class="customers">
         <div class="container">
-
+            <div class="customersInner">
+                <div class="moveLeft sliderControl"><img src="./assets/img/arrow_slider_left.png" alt="Left Arrow"></div>
+                <div class="moveRight sliderControl"><img src="./assets/img/arrow_slider_right.png" alt="Right Arrow"></div>
+                <div class="imagesTrack">
+                  <img src="./assets/img/customer_01.jpg" alt="Britney Cortez" class="customerImage customerImg_1">
+                  <img src="./assets/img/customer_02.jpg" alt="Cameron Dowman" class="customerImage customerImg_2">
+                  <img src="./assets/img/customer_03.jpg" alt="Alice Johnson" class="customerImage customerImg_3">
+                </div>
+                <div class="sliderContainer">
+                  <div class="sliderTrack">
+                    <div class="testimonials">
+                      <h4>New Providence is the great UI kit</h4>
+                      <p>
+                        “The difference between a democracy and a dictatorship is that in a democracy you vote first and take orders later; 
+                        in a dictatorship you don't have to waste your time voting.”
+                      </p>
+                      <div class="starRating">
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star emptyStar"></i>
+                        <i class="fa fa-star emptyStar"></i>
+                      </div>
+                      <h5 class="customerName">Jack Kelly</h5>
+                    </div>
+                    <div class="testimonials">
+                      <h4>New Providence is the great UI kit</h4>
+                      <p>
+                        “Just then her head struck against the roof of the hall: in fact she was now more than nine feet high, 
+                        and she at once took up the little golden key and hurried off to the garden door.”
+                      </p>
+                      <div class="starRating">
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                      </div>
+                      <h5 class="customerName">Cameron Dowman</h5>
+                    </div>
+                    <div class="testimonials">
+                      <h4>New Providence is the great UI kit</h4>
+                      <p>
+                        “Challenges are gifts that force us to search for a new center of gravity. Don't fight them. 
+                        Just find a different way to stand.”
+                      </p>
+                      <div class="starRating">
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star goldStar"></i>
+                        <i class="fa fa-star emptyStar"></i>
+                      </div>
+                      <h5 class="customerName">Alice Johnson</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </section>
     <section class="plans">
@@ -78,14 +132,12 @@
     </section>
     <section class="subscription">
         <div class="container">
-
             <h2>Subscribe our nesletters</h2>
             <form  action="#">
                 <input type="email" name="email" id="email" placeholder="Your e-mail">
                 <button type="submit">Submit</button>
             </form>
             <p>We promise to never spam you.</p>
-
         </div>
     </section>
     <footer>
@@ -136,10 +188,14 @@
             <div class="divider"></div>
             <div class="copyrights">
                 <div class="getCraftWorkLink">For more freebies visit: <a href="http://getcraftwork.com/">http://getcraftwork.com</a></div>
-                <div class="author">Made with love by <img src="./assets/img/craftwork_logo.png" alt="CraftWork logo"></div>
+                <div class="author">
+                    <span>Made with love by</span>
+                    <a href="http://getcraftwork.com/"><img src="./assets/img/craftwork_logo.png" alt="CraftWork logo"></a>
+                </div>
             </div>
         </div>
     </footer>
 </body>
 <script src="./assets/js/main.js"></script>
+<script src="./assets/js/slider.js"></script>
 </html>
