@@ -72,7 +72,7 @@ header ul{
     border-radius: 25px;
 }
 
-.fab{
+.fa-apple{
     font-size: 22px;
     padding: 0 14px 0 17px;
 }
@@ -238,7 +238,7 @@ header ul{
     font-size: 42px;
     font-weight: 400;
     line-height: 52px;
-text-align: left;
+    text-align: left;
 }
 
 .iphoneFeatureContent p{
@@ -308,6 +308,7 @@ text-align: left;
 
 .mapFeature {
     padding: 200px 0 200px 0;
+    position: relative;
 }
 
 .mapContent {
