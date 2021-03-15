@@ -19,6 +19,155 @@ body{
     max-width: 1200px;
     padding: 0 15px 0 15px;
 }
+
+/* Header Section Start */
+.headerBg{
+    background-image: url(../img/headerBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.headerTop{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.headerTop img{
+    width: 140px;
+    height: 13px;
+    position: relative;
+    left: 20px;
+    top: 7px;
+}
+
+.headerTop button{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    width: 132px;
+    height: 42px;
+    border-radius: 25px;
+    background-color: #267df4;
+}
+
+.headerTop button:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.fab{
+    font-size: 22px;
+    padding: 0 14px 0 17px;
+}
+
+.headerTop ul{
+    display: flex;
+}
+
+.headerTop li{
+    list-style: none;
+    margin-right: 35px;
+}
+
+.headerTop li:nth-last-child(1){
+    margin-right: 0;
+}
+
+.headerTop a{
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #26272d;
+}
+.headerTop a:hover{
+    opacity: 0.4;
+    color: #1b1c1e;
+    transition: 0.2s;
+}
+
+.headerTitle{
+    padding-top: 125px;
+    text-align: center;
+}
+
+.headerTitle h1{
+    margin: 0;
+    padding-bottom: 40px;
+    color: #26272d;
+    font-family: "Varela Round";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.headerTitle h3{
+    margin: 0 auto;
+    max-width: 780px;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.headerButtonPos{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    position: relative;
+    right: 20px;
+}
+
+.headerButton{
+    cursor: pointer;
+    opacity: normal;
+    color: #26272d;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #dadcde;
+    background: rgba(255, 255, 255, 0.5)
+}
+
+.headerButtonPlay{
+    margin-right: 15px;
+    width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid #26272d;;
+	border-bottom: 5px solid transparent;
+    display: inline-block;
+}
+
+.headerIphone{
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    top: 5px;
+}
+/* Header Section End */
+
 /* Map Section Start */
 
 .mapFeature {
