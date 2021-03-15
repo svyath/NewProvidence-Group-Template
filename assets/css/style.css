@@ -150,14 +150,24 @@ header ul{
     background: rgba(255, 255, 255, 0.5)
 }
 
-.headerButtonPlay{
-    margin-right: 15px;
-    width: 0;
-	height: 0;
-	border-top: 5px solid transparent;
-	border-left: 10px solid #26272d;;
-	border-bottom: 5px solid transparent;
-    display: inline-block;
+.headerButtonPos button:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.fa-play{
+    padding-right: 15px;
+}
+
+.headerButtonPlay:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
 }
 
 .headerIphone{
@@ -202,6 +212,97 @@ header ul{
 }
 
 /* Feature Section End */
+
+/* Iphone Feature Section Start */
+
+.iphoneFeature img{
+    max-width: 70%;
+    position: relative;
+    right: 150px;
+}
+
+.iphoneFeature{
+    display: flex;
+    padding-top: 250px;
+}
+
+.iphoneFeatureContent{
+    max-width: 470px;
+}
+
+.iphoneFeatureContent h1{
+    margin: 0;
+    padding-bottom: 70px;
+    color: #26272d;
+    font-family: "Varela Round";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+text-align: left;
+}
+
+.iphoneFeatureContent p{
+    margin: 0;
+    padding-bottom: 40px;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.iphoneFeatureBtn{
+    padding-top: 35px;
+}
+
+.iphoneFeatureBtn1{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border:none;
+    width: 202px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #267df4;
+}
+
+.iphoneFeatureBtn1:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.iphoneFeatureBtn button:hover .fa-arrow-right{
+    color:#267df4;
+}
+
+.iphoneFeatureBtn2{
+    cursor: pointer;
+    color: #26272d;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    width: 142px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid #eaeaeb;
+    background-color: #fff;
+}
+
+.iphoneFeatureBtn2:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+/* iphone Feature Section End */
 
 /* Map Section Start */
 
