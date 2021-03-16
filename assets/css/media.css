@@ -58,6 +58,7 @@
         height: 30vh !important;
     }
 }
+
 /*  Iphone Screens  */
 @media screen and (min-width: 350px){
     section.iphoneScreens .content .showroom .carusel > li{
@@ -86,6 +87,7 @@
         z-index: 2;
     }
 }
+
 /*  Ready to Buy  */
 @media screen and (max-width: 550px) {
     .readyToBuy form input[type = "email"] {
@@ -96,6 +98,7 @@
         position: relative !important;
     }
 }
+
 /*  Customers  */
 @media screen and (max-width: 800px) {
     .moveRight, .moveLeft {
@@ -130,6 +133,7 @@
         min-width: 300px !important;
     }
 }
+
 /*  Plans  */
 @media screen and (min-width: 350px){
     section.plans .content{
@@ -148,7 +152,6 @@
         flex-direction: row;
     }
 }
-
 
 /*  Subscribtion  */
 @media screen and (min-width: 350px){
@@ -169,4 +172,39 @@
         width: 570px;
     }
 }
+
 /*  Footer  */
+@media screen and (max-width: 900px){
+    .footerContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mainInfo a img {
+        margin: 0 auto;
+    }
+    .breadcrumbs ul:nth-of-type(3) {
+        margin-right: 0 !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .breadcrumbs {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .breadcrumbs ul {
+        margin: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    .copyrights {
+        flex-direction: column;
+    }
+    .socialLinks {
+        margin-bottom: 50px !important;
+    }
+    .footerContent {
+        margin-top: 30px !important;
+    }
+}
