@@ -380,12 +380,47 @@ section.iphoneScreens{
     height: auto;
 }
 
-section.iphoneSreens .container{
-    width: 100%;
-    max-width: 100%;
+section.iphoneScreens .container{
+    max-width: none;
+}
+section.iphoneScreens .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-section.iphoneScreens 
+section.iphoneScreens .content .text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.iphoneScreens .content .text h2{
+    font-family: var(--main-font);
+    color: #26272d;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+section.iphoneScreens .content .text div.line{
+    width: 50px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 50px 0 40px 0;
+    background-color:#267df4;
+}
+
+section.iphoneScreens .content .text p{
+ font-family: var(--secondary-font);
+ font-size: 12px;
+ font-weight: bold;
+ margin: 0 0 50px 0;
+ text-transform: uppercase;
+ color: #8c8f94;   
+}
 
 /*IPhone screens section end*/
 
