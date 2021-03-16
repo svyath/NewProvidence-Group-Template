@@ -37,5 +37,22 @@
 
 
 /*  Subscribtion  */
+@media screen and (min-width: 350px){
+    .subscription .container .ask{
+        width: 100%;
+    }
+    .subscription .container form .sub{
+        width: auto;
+    }
+    
+}
 
+@media screen and (min-width: 750px){
+    .subscription .container form .sub{
+        width: 20%;
+    }
+    .subscription .container .ask{
+        width: 570px;
+    }
+}
 /*  Footer  */
