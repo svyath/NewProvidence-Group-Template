@@ -345,7 +345,7 @@ body{
 /*Plan Section Start*/
 
 section.plans{
-    padding: 180px 0 210px 0;
+    padding: 160px 0;
     height: auto;
     width: 100%;
     background-color: var(--secondary-color);
@@ -357,10 +357,16 @@ section.plans .content{
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    min-height: 700px;
 }
 
 section.plans .content .left{
+    height: 700px;
+    display: flex;
     flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
 }
 section.plans .content .right{
     flex: 2;
@@ -527,7 +533,7 @@ section.plans .content .right > div button{
     cursor: pointer;
 }
 
-section.plans .content .right > div.active{
+section.plans .content .right > div:hover{
     background-color: #ffffff;
     padding: 70px;
     -webkit-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
@@ -538,7 +544,7 @@ section.plans .content .right > div.active{
 
 }
 
-section.plans .content .right > div.active button{
+section.plans .content .right > div button:hover{
     background-color: #267df4;
     color: #ffffff;
     
