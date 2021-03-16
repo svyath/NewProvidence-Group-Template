@@ -13,6 +13,7 @@ body{
     --secondary-font: 'Lato', sans-serif;
     --font-color: black;
     --secondary-font-color: #8c8f94;
+    --slider: 0;
 }
 
 .container {
@@ -455,6 +456,8 @@ section.iphoneScreens .content .showroom .carusel > li{
     -webkit-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
     box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
+    transition: 2s;
+    transform: translate(var(--slider));
 }
 
 /*IPhone screens section end*/
