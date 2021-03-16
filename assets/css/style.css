@@ -375,13 +375,15 @@ header ul{
 
 section.iphoneScreens{
     padding: 150px 0 120px 0;
-    background: #f5f5f8;
+    background: #ededee;
     width: 100%;
     height: auto;
 }
 
 section.iphoneScreens .container{
     max-width: none;
+    margin: 0;
+    padding: 0;
 }
 section.iphoneScreens .content{
     display: flex;
@@ -420,6 +422,36 @@ section.iphoneScreens .content .text p{
  margin: 0 0 50px 0;
  text-transform: uppercase;
  color: #8c8f94;   
+}
+
+section.iphoneScreens .content .showroom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+section.iphoneScreens .content .showroom .front{
+    position: absolute;
+}
+
+
+section.iphoneScreens .content .showroom .carusel{
+    list-style: none;
+    display: flex;
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+section.iphoneScreens .content .showroom .carusel > li{
+    margin: 0 47px;
+    -webkit-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
+    box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
 }
 
 /*IPhone screens section end*/
@@ -465,6 +497,8 @@ section.iphoneScreens .content .text p{
 	margin-bottom: 65px;
     position: relative;
 }
+
+
 
 .readyToBuy form input[type = "email"] {
 	width: 475px;
