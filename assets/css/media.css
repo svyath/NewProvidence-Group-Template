@@ -1,4 +1,61 @@
 /*  Header  */
+@media(max-width:810px){
+	.navbtn .headerbtn1{
+		text-align: right;
+	}
+	.headerTop .headerBurger{		
+		display: block;
+		margin-left: 50px;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		position: fixed;
+	}
+	.headerBurger::before,
+	.headerBurger::after{
+		content:'';
+		background-color: red;
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+	}
+	.headerBurger::before{
+		top: 0;
+	}
+	.headerBurger::after{
+		bottom: 0;
+	}
+	.headerBurger span{
+		background-color: red;
+		position: absolute;
+		width: 100%;
+		left: 0;
+		height: 2px;
+		top: 9px;
+	}
+	.headernNav1,
+	.headernNav2
+	{
+		position: fixed;
+		top: 0;
+		left: 0;
+		/* background-color: blue; */
+	}
+	.headernNav2{
+		top: 110px;
+	}
+	.headernNav1 ul,
+	.headernNav2 ul{
+		flex-direction: column;
+	}
+
+	.headernNav1 ul li a,
+	.headernNav2 ul li a{
+		font-size: 30px;
+	}
+	
+}
 
 /*  Feature */
 
