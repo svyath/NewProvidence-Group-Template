@@ -452,8 +452,12 @@ section.plans .content .left .plan-opntions > button.active-btn{
 
 }
 
-
-
+section.plans .content .right > div.Starter-Company{
+    display: none;
+}
+section.plans .content .right > div.Pro-Company{
+    display: none;
+}
 section.plans .content .right > div{
     
     padding: 50px;
