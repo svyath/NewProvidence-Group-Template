@@ -354,16 +354,29 @@ section.plans{
 
 section.plans .content{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.plans .content .left{
+    flex: 1;
+}
+section.plans .content .right{
+    flex: 2;
+    display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 
 section.plans .content .left h3{
     color: #26272d;
     font-family: var(--main-font);
     font-size: 42px;
     font-weight: 400;
+    margin: 30px 0;
 }
+
 
 section.plans .content .left .plan-title{
     color: #26272d;
@@ -378,6 +391,7 @@ section.plans .content .left .info{
     font-size: 20px;
     font-weight: 400;
     color: var(--secondary-font-color);
+    margin: 50px 0;
 
 }
 
@@ -386,6 +400,7 @@ section.plans .content .left .more-options{
     font-family: var(--secondary-font);
     font-size: 14px;
     font-weight: 400;
+    margin: 20px 0 ;
 
 }
 
@@ -393,6 +408,42 @@ section.plans .content .left .more-options > a{
     color: #267df4;
 }
 
+section.plans .content .left .plan-opntions{
+    border: 1px solid #d5d6d7;
+    max-width: 245px;
+    width: auto;
+    padding: 3px;
+    border-radius: 21px;
+    margin: 0 0 50px 0;
+    
+
+}
+section.plans .content .left .plan-opntions > button{
+    border: none;
+    background: none;
+    color: #26292c;
+    opacity: 0.4;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 21px;
+
+}
+
+section.plans .content .left .plan-opntions > button:hover{
+    cursor: pointer;
+}
+
+section.plans .content .left .plan-opntions > button.active-btn{
+    background-color: white;
+    opacity: 1;
+    -webkit-box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+    box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+
+}
 /*Plan Section End*/
 
 
