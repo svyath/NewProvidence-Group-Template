@@ -627,6 +627,223 @@ header ul{
       
 /* Customers Section End */
 
+
+/*Plan Section Start*/
+
+section.plans{
+    padding: 160px 0;
+    height: auto;
+    width: 100%;
+    background-color: var(--secondary-color);
+
+}
+
+section.plans .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+}
+
+section.plans .content .left{
+    height: 700px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+section.plans .content .right{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.plans .content .left h3{
+    color: #26272d;
+    font-family: var(--main-font);
+    font-size: 42px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+
+section.plans .content .left .plan-title{
+    color: #26272d;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.plans .content .left .info{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+    margin: 50px 0;
+
+}
+
+section.plans .content .left .more-options{
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0 ;
+
+}
+
+section.plans .content .left .more-options > a{
+    color: #267df4;
+}
+
+section.plans .content .left .plan-opntions{
+    border: 1px solid #d5d6d7;
+    max-width: 245px;
+    width: auto;
+    padding: 3px;
+    border-radius: 21px;
+    margin: 0 0 50px 0;
+    
+
+}
+section.plans .content .left .plan-opntions > button{
+    border: none;
+    background: none;
+    color: #26292c;
+    opacity: 0.4;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 21px;
+
+}
+
+section.plans .content .left .plan-opntions > button:hover{
+    cursor: pointer;
+}
+
+section.plans .content .left .plan-opntions > button.active-btn{
+    background-color: white;
+    opacity: 1;
+    -webkit-box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+    box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+
+}
+
+section.plans .content .right > div.Starter-Company{
+    display: none;
+}
+section.plans .content .right > div.Pro-Company{
+    display: none;
+}
+section.plans .content .right > div{
+    
+    padding: 50px;
+    min-height: 500px;
+    border-radius: 10px;
+
+    height: auto;
+    max-width: 300px;
+    background-color: #ebebed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.plans .content .right > div h4{
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    margin: 0;
+
+    font-weight: 100;
+
+}
+
+section.plans .content .right > div .price{
+    width: auto;
+    border: 1px solid #d4d4d5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    border-radius: 14px;
+    width: 60px;
+    height: 30px;
+    margin: 30px;
+    
+}
+
+section.plans .content .right > div .info{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 50px;
+    width: 200px;
+    color: #8c8f94;
+}
+
+section.plans .content .right > div ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-image: url("../img/checkIcon.png");
+}
+section.plans .content .right > div ul > li{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: #26292c;
+    padding: 15px 0;
+}
+
+section.plans .content .right > div button{
+    margin: auto 0 0 0;
+    background: none;
+    border: 1px solid #267df4;
+    min-width: 200px;
+    min-height: 40px;
+    border-radius: 21px;
+    color: #267df4;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section.plans .content .right > div:hover{
+    background-color: #ffffff;
+    padding: 70px;
+    -webkit-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    -moz-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    z-index: 1;
+    
+
+}
+
+section.plans .content .right > div button:hover{
+    background-color: #267df4;
+    color: #ffffff;
+    
+    
+}
+
+/*Plan Section End*/
+
+
 /* Subscription Section Start */
 
 .subscription{
@@ -649,7 +866,8 @@ header ul{
     font-size: 42px;
     font-family: var(--main-font);
     margin: 0 0 20px 0;
-    color: var(--font-color);
+    font-weight: 400;
+    color: #26292c;
     text-align: center;   
 }
 
