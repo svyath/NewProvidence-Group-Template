@@ -1,3 +1,6 @@
+@import "./style.css";
+
+
 /*  Header  */
 
 /*  Feature */
@@ -7,13 +10,75 @@
 /*  Map Feature */
 
 /*  Iphone Screens  */
-
+@media screen and (min-width: 350px){
+    section.iphoneScreens .content .showroom .carusel > li{
+        transform: translate(-770px);
+        z-index: 0;
+    }
+    section.iphoneScreens .content .showroom .front{
+        z-index: 2;
+    }
+}
+@media screen and (min-width: 800px){
+    section.iphoneScreens .content .showroom .carusel > li{
+        transform: translate(-550px);
+        z-index: 0;
+    }
+    section.iphoneScreens .content .showroom .front{
+        z-index: 2;
+    }
+}
+@media screen and (min-width: 1200px){
+    section.iphoneScreens .content .showroom .carusel > li{
+        transform: translate(0);
+        z-index: 0;
+    }
+    section.iphoneScreens .content .showroom .front{
+        z-index: 2;
+    }
+}
 /*  Ready to Buy  */
 
 /*  Customers  */
 
 /*  Plans  */
 
-/*  Subscribtion  */
+@media screen and (min-width: 350px){
+    section.plans .content{
+        flex-direction: column;
+    }
+    section.plans .content .right{
+        flex-direction: column;
+    }
+}
 
+@media screen and (min-width: 950px){
+    section.plans .content{
+        flex-direction: row;
+    }
+    section.plans .content .right{
+        flex-direction: row;
+    }
+}
+
+
+/*  Subscribtion  */
+@media screen and (min-width: 350px){
+    .subscription .container .ask{
+        width: 100%;
+    }
+    .subscription .container form .sub{
+        width: auto;
+    }
+    
+}
+
+@media screen and (min-width: 750px){
+    .subscription .container form .sub{
+        width: 20%;
+    }
+    .subscription .container .ask{
+        width: 570px;
+    }
+}
 /*  Footer  */
