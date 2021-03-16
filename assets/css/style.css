@@ -342,7 +342,58 @@ body{
 /* Customers Section End */
 
 
+/*Plan Section Start*/
 
+section.plans{
+    padding: 180px 0 210px 0;
+    height: auto;
+    width: 100%;
+    background-color: var(--secondary-color);
+
+}
+
+section.plans .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section.plans .content .left h3{
+    color: #26272d;
+    font-family: var(--main-font);
+    font-size: 42px;
+    font-weight: 400;
+}
+
+section.plans .content .left .plan-title{
+    color: #26272d;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.plans .content .left .info{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+
+}
+
+section.plans .content .left .more-options{
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+section.plans .content .left .more-options > a{
+    color: #267df4;
+}
+
+/*Plan Section End*/
 
 
 /* Subscription Section Start */
