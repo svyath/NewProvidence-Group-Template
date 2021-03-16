@@ -1,3 +1,5 @@
+@import "style.css";
+
 /*  Header  */
 
 /*  Feature */
@@ -5,7 +7,49 @@
 /*  Iphone Feature  */
 
 /*  Map Feature */
+@media (max-width: 1230px) {
+    .worldMap {
+        top: 240px;
+        filter: blur(2px);
+    }
+}
 
+@media (max-width: 890px) {
+    .worldMap {
+        top: 50px;
+        width: 100%;
+        position: inherit;
+        filter: none;
+        background-size: contain;
+    }
+    .mapContent {
+        display: flex;
+        flex-direction: column;
+        max-width: none;
+        padding: 20px 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .mapFeature {
+        padding: 120px 0 100px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .mapFeature {
+        padding: 70px 0 70px 0;
+    }
+    .worldMap {
+        top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .mapTitle {
+        font-size: 36px;
+    }
+}
 /*  Iphone Screens  */
 
 /*  Ready to Buy  */
