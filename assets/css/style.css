@@ -449,8 +449,11 @@ section.plans .content .left .plan-opntions > button.active-btn{
 
 
 section.plans .content .right > div{
+    
     padding: 50px;
     min-height: 500px;
+    border-radius: 10px;
+
     height: auto;
     max-width: 300px;
     background-color: #ebebed;
@@ -521,10 +524,26 @@ section.plans .content .right > div button{
     color: #267df4;
     font-family: var(--secondary-font);
     font-size: 16px;
+    cursor: pointer;
 }
 
-section.plans .content .right > div
+section.plans .content .right > div.active{
+    background-color: #ffffff;
+    padding: 70px;
+    -webkit-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    -moz-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    z-index: 1;
+    
 
+}
+
+section.plans .content .right > div.active button{
+    background-color: #267df4;
+    color: #ffffff;
+    
+    
+}
 
 /*Plan Section End*/
 
