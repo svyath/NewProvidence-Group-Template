@@ -216,6 +216,29 @@
 }
 
 /*  Iphone Screens  */
+@media screen and (max-width: 1400px) {
+    .phoneBack{
+        filter: blur(2px);
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .phoneBack {
+        background-position: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .iphoneFeatureBtn {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .iphoneFeatureBtn1 {
+        margin-bottom: 10px;
+    }
+}
 
 /*  Ready to Buy  */
 @media screen and (max-width: 550px) {
