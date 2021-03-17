@@ -53,10 +53,6 @@ header ul{
     justify-content: space-between;
 }
 
-.liMargin{
-
-}
-
 .headerTop button{
     display: flex;
     color: #ffffff;
@@ -229,7 +225,7 @@ header ul{
 
 .iphoneFeature img{
     max-width: 70%;
-    position: relative;
+    position: absolute;
     right: 150px;
 }
 

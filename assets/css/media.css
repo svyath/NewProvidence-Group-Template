@@ -10,7 +10,6 @@
     }
 }
 
-
 @media(max-width:1200px){
 	.headerTop nav ul li:nth-child(3){
 		padding-right: 400px;
@@ -135,7 +134,6 @@
 		padding: 20px;
 		display: inline-block;
 	}
-	
 }
 
 /*  Feature */
