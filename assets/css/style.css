@@ -23,6 +23,19 @@ body{
 }
 
 /* Header Section Start */
+
+.headerBurger{
+    display: none;
+}
+
+.navbtn{
+    display: flex;
+}
+
+.navbtn nav{
+    padding-right: 30px;
+}
+
 .headerBg{
     background-image: url(../img/headerBG.png);
     background-size: cover;
@@ -35,18 +48,13 @@ header ul{
 }
 
 .headerTop{
+    background:url(../img/headerNavText.png);
+    background-repeat: no-repeat;
+    background-position: center;
     padding-top: 60px;
+    padding-bottom: 50px;
     display: flex;
     justify-content: space-between;
-}
-
-
-.headerTop img{
-    width: 140px;
-    height: 13px;
-    position: relative;
-    left: 20px;
-    top: 7px;
 }
 
 .headerTop button{
@@ -60,8 +68,8 @@ header ul{
     position: relative;
     bottom: 10px;
     border: none;
-    width: 132px;
-    height: 42px;
+    width: 130px;
+    height: 40px;
     border-radius: 25px;
     background-color: #267df4;
 }
@@ -106,7 +114,7 @@ header ul{
 }
 
 .headerTitle{
-    padding-top: 125px;
+    padding-top: 75px;
     text-align: center;
 }
 
@@ -510,8 +518,6 @@ section.iphoneScreens .content .showroom .carusel > li{
 	margin-bottom: 65px;
     position: relative;
 }
-
-
 
 .readyToBuy form input[type = "email"] {
 	width: 475px;
