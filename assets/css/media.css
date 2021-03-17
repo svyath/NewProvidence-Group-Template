@@ -1,6 +1,17 @@
 @import "./style.css";
 
 /*  Header  */
+
+@media(max-width:350px){
+    .headerIphone img{
+        width: 100%;
+    }
+    .featureItems{
+        flex-direction: column;
+    }
+}
+
+
 @media(max-width:810px){
 	.navbtn .headerbtn1{
 		text-align: right;
@@ -62,7 +73,15 @@
 /*  Feature */
 
 /*  Iphone Feature  */
-
+@media(max-width:350px){
+    .iphoneFeature{
+        padding-top: 50px !important;
+        flex-direction: column;
+    }
+    .iphoneFeatureContent{
+        padding: 0 15px;
+    }
+}
 /*  Map Feature */
 @media screen and (max-width: 1230px) {
     .worldMap {
