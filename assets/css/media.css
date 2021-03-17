@@ -10,33 +10,7 @@
 /*  Map Feature */
 
 /*  Iphone Screens  */
-@media screen and (min-width: 350px){
-    section.iphoneScreens .content .showroom .carusel > li{
-        transform: translate(-770px);
-        z-index: 0;
-    }
-    section.iphoneScreens .content .showroom .front{
-        z-index: 2;
-    }
-}
-@media screen and (min-width: 800px){
-    section.iphoneScreens .content .showroom .carusel > li{
-        transform: translate(-550px);
-        z-index: 0;
-    }
-    section.iphoneScreens .content .showroom .front{
-        z-index: 2;
-    }
-}
-@media screen and (min-width: 1200px){
-    section.iphoneScreens .content .showroom .carusel > li{
-        transform: translate(0);
-        z-index: 0;
-    }
-    section.iphoneScreens .content .showroom .front{
-        z-index: 2;
-    }
-}
+
 /*  Ready to Buy  */
 
 /*  Customers  */
