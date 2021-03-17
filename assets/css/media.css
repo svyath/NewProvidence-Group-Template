@@ -1,7 +1,6 @@
 @import "./style.css";
 
 /*  Header  */
-
 @media(max-width:350px){
     .headerIphone img{
         width: 100%;
@@ -10,7 +9,6 @@
         flex-direction: column;
     }
 }
-
 
 @media(max-width:810px){
 	.menu{
@@ -90,6 +88,19 @@
 }
 
 /*  Feature */
+@media screen and (max-width: 1050px) {
+    .featureItems{
+        padding-top: 80px !important;
+        display: flex;
+        flex-direction: column;
+    }
+    .featureItem:first-of-type {
+        margin-bottom: 30px;
+    }
+    .featureItem {
+        max-width: none !important;
+    }    
+}
 
 /*  Iphone Feature  */
 @media(max-width:350px){
@@ -101,6 +112,7 @@
         padding: 0 15px;
     }
 }
+
 /*  Map Feature */
 @media screen and (max-width: 1230px) {
     .worldMap {
