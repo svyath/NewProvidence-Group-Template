@@ -222,42 +222,57 @@ header ul{
 /* Feature Section End */
 
 /* Iphone Feature Section Start */
-
-.iphoneFeature img{
-    max-width: 70%;
-    position: absolute;
-    right: 150px;
+.iphoneFeature {
+    margin: 120px 0px;
+	height: 820px;
 }
 
-.iphoneFeature{
-    display: flex;
-    padding-top: 250px;
+.phoneBack {
+    background: url('../img/iphoneFeature.png') right;
+	background-size: cover;
+    background-repeat: no-repeat;
+	width: 863px;
+	height: 879px;
+	position: absolute;
 }
 
-.iphoneFeatureContent{
-    max-width: 470px;
+.iphoneFeature .container {
+    max-width: none;
+    width: 85%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 100%;
 }
 
-.iphoneFeatureContent h1{
-    margin: 0;
-    padding-bottom: 70px;
-    color: #26272d;
-    font-family: "Varela Round";
+.aboutFeatures {
+	position: relative;
+	z-index: 1;
+	max-width: 500px;
+}
+
+.aboutFeatures h3 {
+	font-family: var(--main-font);
     font-size: 42px;
-    font-weight: 400;
     line-height: 52px;
-    text-align: left;
+    font-weight: 400;
+    color: #26272d;
+	margin-bottom: 60px;
+    max-width: 240px;
 }
 
-.iphoneFeatureContent p{
+.newLine {
+    padding: 0;
     margin: 0;
-    padding-bottom: 40px;
-    color: #8c8f94;
-    font-family: Lato;
+}
+
+.aboutFeatures p {
+	font-family: var(--secondary-font);
     font-size: 20px;
-    font-weight: 400;
     line-height: 28px;
-    text-align: left;
+    font-weight: 400;
+    color: #8c8f94;
+    max-width: 470px;
 }
 
 .iphoneFeatureBtn{
@@ -277,7 +292,6 @@ header ul{
     border-radius: 21px;
     background-color: #fff; 
     border: 1px solid #eaeaeb;
-
 }
 
 .iphoneFeatureBtn1:hover{
@@ -310,6 +324,7 @@ header ul{
     transition: 0.2s;
     border-radius: 25px;
 }
+
 /* iphone Feature Section End */
 
 /* Map Section Start */
