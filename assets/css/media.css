@@ -1,6 +1,17 @@
 @import "./style.css";
 
 /*  Header  */
+
+@media(max-width:350px){
+    .headerIphone img{
+        width: 100%;
+    }
+    .featureItems{
+        flex-direction: column;
+    }
+}
+
+
 @media(max-width:810px){
 	.menu{
 		display: none;
@@ -81,7 +92,15 @@
 /*  Feature */
 
 /*  Iphone Feature  */
-
+@media(max-width:350px){
+    .iphoneFeature{
+        padding-top: 50px !important;
+        flex-direction: column;
+    }
+    .iphoneFeatureContent{
+        padding: 0 15px;
+    }
+}
 /*  Map Feature */
 @media screen and (max-width: 1230px) {
     .worldMap {
@@ -136,33 +155,6 @@
 }
 
 /*  Iphone Screens  */
-@media screen and (min-width: 350px){
-    section.iphoneScreens .content .showroom .carusel > li{
-        transform: translate(-770px);
-        z-index: 0;
-    }
-    section.iphoneScreens .content .showroom .front{
-        z-index: 2;
-    }
-}
-@media screen and (min-width: 800px){
-    section.iphoneScreens .content .showroom .carusel > li{
-        transform: translate(-550px);
-        z-index: 0;
-    }
-    section.iphoneScreens .content .showroom .front{
-        z-index: 2;
-    }
-}
-@media screen and (min-width: 1200px){
-    section.iphoneScreens .content .showroom .carusel > li{
-        transform: translate(0);
-        z-index: 0;
-    }
-    section.iphoneScreens .content .showroom .front{
-        z-index: 2;
-    }
-}
 
 /*  Ready to Buy  */
 @media screen and (max-width: 550px) {
