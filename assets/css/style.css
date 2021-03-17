@@ -53,6 +53,10 @@ header ul{
     justify-content: space-between;
 }
 
+.liMargin{
+
+}
+
 .headerTop button{
     display: flex;
     color: #ffffff;
@@ -95,9 +99,9 @@ header ul{
 .headerTop li:nth-last-child(1){
     margin-right: 0;
 }
-/* .headerTop li:nth-child(3){
-    padding-right: 400px;;
-} */
+.headerTop li:nth-child(3){
+    
+}
 
 .headerTop a{
     text-decoration: none;
@@ -267,7 +271,7 @@ header ul{
 .iphoneFeatureBtn1{
     margin-right: 20px;
     cursor: pointer;
-    color: #ffffff;
+    color: #26272d;
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
@@ -275,19 +279,23 @@ header ul{
     width: 202px;
     height: 42px;
     border-radius: 21px;
-    background-color: #267df4;
+    background-color: #fff; 
+    border: 1px solid #eaeaeb;
+
 }
 
 .iphoneFeatureBtn1:hover{
-    color: #267df4;
-    background-color: #fff;
+    color: #fff;
+    background-color: #267df4;
     transition: 0.2s;
-    border: 1px solid #267df4;
     border-radius: 25px;
+}
+.iphoneFeature button .fa-arrow-right{
+    color:#26272d;
 }
 
 .iphoneFeatureBtn button:hover .fa-arrow-right{
-    color:#267df4;
+    color:#fff;
 }
 
 .iphoneFeatureBtn2{
@@ -300,14 +308,13 @@ header ul{
     height: 42px;
     border-radius: 21px;
     border: 1px solid #eaeaeb;
-    background-color: #fff;
+    background-color:#fff; 
 }
 
 .iphoneFeatureBtn2:hover{
-    color: #267df4;
-    background-color: #fff;
+    color: #fff;
+    background-color: #267df4;
     transition: 0.2s;
-    border: 1px solid #267df4;
     border-radius: 25px;
 }
 /* iphone Feature Section End */
