@@ -95,9 +95,9 @@ header ul{
 .headerTop li:nth-last-child(1){
     margin-right: 0;
 }
-.headerTop li:nth-child(3){
+/* .headerTop li:nth-child(3){
     padding-right: 400px;;
-}
+} */
 
 .headerTop a{
     text-decoration: none;
