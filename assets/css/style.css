@@ -100,7 +100,7 @@ header ul{
     margin-right: 0;
 }
 .headerTop li:nth-child(3){
-    
+    padding-right: 500px;
 }
 
 .headerTop a{
@@ -289,9 +289,6 @@ header ul{
     background-color: #267df4;
     transition: 0.2s;
     border-radius: 25px;
-}
-.iphoneFeature button .fa-arrow-right{
-    color:#26272d;
 }
 
 .iphoneFeatureBtn button:hover .fa-arrow-right{
