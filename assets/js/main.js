@@ -29,31 +29,6 @@ function activeCompanyPlans() {
 }
 
 
-// let counter = 0;
-// // let op = ["0", '420px', "840px", "420px","0",'-410px', "-840px", "-410px"];
-
-
-window.addEventListener("load", _=(event)=> {
-    const windowSize = window.innerWidth
-    console.log(windowSize)
-})
-//     if(windowSize >= 350 && windowSize<1200){
-//         setInterval(_=>{
-//             let op=["0", "-360px", "-780px", "-1190px", "-1600px", "-1190px", "-780px","-360px"]
-//             document.documentElement.style.setProperty("--slider", op[counter]);
-//             counter++;
-//             if(counter > op.length-1)counter =0;
-//         }, 3000);
-//     }else if(windowSize >= 1200){
-//         setInterval(_=>{
-//             let op=["0", "130%", "340%", "130%", "0", "-130%", "-340%", "-130%"]
-//             document.documentElement.style.setProperty("--slider", op[counter]);
-//             counter++;
-//             if(counter > op.length-1)counter =0;
-//         }, 3000);
-//     }
-// })
-
 
 $(function () {
     $('.carusel').slick({
