@@ -225,6 +225,13 @@
 @media screen and (max-width: 890px) {
     .phoneBack {
         background-position: center;
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 505px) {
+    .headerIphone img {
+       width: 305px;
+       height: 309px;
     }
 }
 
