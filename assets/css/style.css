@@ -444,6 +444,7 @@ section.iphoneScreens .content .showroom{
 
 section.iphoneScreens .content .showroom .front{
     position: absolute;
+    z-index: 1;
 }
 
 
@@ -458,12 +459,18 @@ section.iphoneScreens .content .showroom .carusel{
     justify-content: space-between;
 }
 section.iphoneScreens .content .showroom .carusel > li{
-    margin: 0 47px;
+    
+    width: 320px;
     -webkit-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
     -moz-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
     box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
     transition: 2s;
-    transform: translate(var(--slider));
+    
+}
+
+.slick-slide{
+    margin: 0 30px;
+    
 }
 
 /*IPhone screens section end*/
