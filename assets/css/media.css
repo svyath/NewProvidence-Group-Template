@@ -1,3 +1,5 @@
+@import "./style.css";
+
 /*  Header  */
 @media(max-width:810px){
 	.navbtn .headerbtn1{
@@ -62,15 +64,204 @@
 /*  Iphone Feature  */
 
 /*  Map Feature */
+@media screen and (max-width: 1230px) {
+    .worldMap {
+        top: 240px;
+        filter: blur(2px);
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .worldMap {
+        top: 50px !important;
+        width: 100% !important;
+        height: 50vh !important;
+        position: relative !important;
+        filter: none;
+        background-size: contain !important;
+    }
+    .mapContent {
+        display: flex;
+        flex-direction: column;
+        max-width: none !important;
+        padding: 20px 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .mapFeature {
+        padding: 120px 0 100px 0 !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .mapFeature {
+        padding: 70px 0 70px 0;
+    }
+    .worldMap {
+        top: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .mapTitle {
+        font-size: 36px !important;
+    }
+    .partnersLogos a img {
+        width: 100px;
+        height: 30px;
+    }
+    .worldMap {
+        height: 30vh !important;
+    }
+}
 
 /*  Iphone Screens  */
+@media screen and (min-width: 350px){
+    section.iphoneScreens .content .showroom .carusel > li{
+        transform: translate(-770px);
+        z-index: 0;
+    }
+    section.iphoneScreens .content .showroom .front{
+        z-index: 2;
+    }
+}
+@media screen and (min-width: 800px){
+    section.iphoneScreens .content .showroom .carusel > li{
+        transform: translate(-550px);
+        z-index: 0;
+    }
+    section.iphoneScreens .content .showroom .front{
+        z-index: 2;
+    }
+}
+@media screen and (min-width: 1200px){
+    section.iphoneScreens .content .showroom .carusel > li{
+        transform: translate(0);
+        z-index: 0;
+    }
+    section.iphoneScreens .content .showroom .front{
+        z-index: 2;
+    }
+}
 
 /*  Ready to Buy  */
+@media screen and (max-width: 550px) {
+    .readyToBuy form input[type = "email"] {
+        width: 60vw !important;
+    }
+    .readyToBuy form button {
+        margin-top: 10px;
+        position: relative !important;
+    }
+}
 
 /*  Customers  */
+@media screen and (max-width: 800px) {
+    .moveRight, .moveLeft {
+        display: none;
+    }
+}
+@media screen and (max-width: 630px) {
+    .customerImage {
+        width: 60px !important;
+        height: 60px !important;;
+    }
+    .imgActive {
+        width: 90px !important;;
+        height: 90px !important;;
+    }
+    .imagesTrack {
+        width: auto !important;
+    }
+    .sliderContainer {
+        max-width: 450px !important;
+    }
+    .testimonials {
+        margin-top: 0 !important;
+        min-width: 450px !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    .sliderContainer {
+        max-width: 300px !important;
+    }
+    .testimonials {
+        min-width: 300px !important;
+    }
+}
 
 /*  Plans  */
+@media screen and (min-width: 350px){
+    section.plans .content{
+        flex-direction: column;
+    }
+    section.plans .content .right{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 950px){
+    section.plans .content{
+        flex-direction: row;
+    }
+    section.plans .content .right{
+        flex-direction: row;
+    }
+}
 
 /*  Subscribtion  */
+@media screen and (min-width: 350px){
+    .subscription .container .ask{
+        width: 100%;
+    }
+    .subscription .container form .sub{
+        width: auto;
+    }
+    
+}
+
+@media screen and (min-width: 750px){
+    .subscription .container form .sub{
+        width: 20%;
+    }
+    .subscription .container .ask{
+        width: 570px;
+    }
+}
 
 /*  Footer  */
+@media screen and (max-width: 900px){
+    .footerContent {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .mainInfo a img {
+        margin: 0 auto;
+    }
+    .breadcrumbs ul:nth-of-type(3) {
+        margin-right: 0 !important;
+    }
+}
+@media screen and (max-width: 600px){
+    .breadcrumbs {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .breadcrumbs ul {
+        margin: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    .copyrights {
+        flex-direction: column;
+    }
+    .socialLinks {
+        margin-bottom: 50px !important;
+    }
+    .footerContent {
+        margin-top: 30px !important;
+    }
+}
