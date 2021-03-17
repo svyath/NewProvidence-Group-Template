@@ -2,10 +2,22 @@
 
 /*  Header  */
 @media(max-width:810px){
-	.navbtn .headerbtn1{
-		text-align: right;
+	.menu{
+		display: none;
 	}
-	.headerTop .headerBurger{		
+	.show{
+		display: block;
+	}
+	.headerTop button{
+		position: absolute;
+		right: 0;
+		top: 0;
+		margin-top: 45px;
+		margin-right: 15px;
+	}
+	.headerTop .headerBurger{	
+		cursor: pointer;
+		z-index: 50;	
 		display: block;
 		margin-left: 50px;
 		position: relative;
@@ -16,7 +28,7 @@
 	.headerBurger::before,
 	.headerBurger::after{
 		content:'';
-		background-color: red;
+		background-color: #fff;
 		position: absolute;
 		width: 100%;
 		height: 2px;
@@ -29,32 +41,35 @@
 		bottom: 0;
 	}
 	.headerBurger span{
-		background-color: red;
+		background-color: #fff;
 		position: absolute;
 		width: 100%;
 		left: 0;
 		height: 2px;
 		top: 9px;
 	}
-	.headernNav1,
-	.headernNav2
-	{
+	.headernNav1{
 		position: fixed;
 		top: 0;
 		left: 0;
-		/* background-color: blue; */
+		background-color: rgba(38, 125, 244, 0.7);
+		width: 100%;
+		z-index: 49;
 	}
-	.headernNav2{
-		top: 110px;
+	.headerTop .navbtn nav{
+		padding-right: 0;
 	}
-	.headernNav1 ul,
-	.headernNav2 ul{
+	.headernNav1 ul{
 		flex-direction: column;
 	}
-
-	.headernNav1 ul li a,
-	.headernNav2 ul li a{
+	.headernNav1 ul li{
+		text-align: center;
+		margin: 0;
+	}
+	.headernNav1 ul li a,{
 		font-size: 30px;
+		padding: 20px;
+		display: inline-block;
 	}
 	
 }
