@@ -1,3 +1,6 @@
+@import "fonts.css";
+@import "media.css";
+
 body{
     margin: 0;
     padding: 0;
@@ -5,8 +8,1173 @@ body{
 
 :root{
     --main-color: white;
-    --secondary-color: black;
-    --main-font: 'Courier New', Courier, monospace;
-    --font-color: blue;
+    --secondary-color: #f4f4f5;
+    --main-font: 'Varela Round', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+    --font-color: black;
+    --secondary-font-color: #8c8f94;
+    --slider: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 15px 0 15px;
+}
+
+/* Header Section Start */
+
+.headerBurger{
+    display: none;
+}
+
+.headerTop nav ul li{
+    padding-right: 40px;
+}
+
+.headerBg{
+    background-image: url(../img/headerBG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+
+.headerTop{
+    background:url(../img/headerNavText.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerTop button{
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    border: none;
+    width: 130px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #267df4;
+}
+
+.headerTop button:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.fa-apple{
+    font-size: 22px;
+    padding: 0 14px 0 17px;
+}
+
+.headerTop ul{
+    display: flex;
+}
+
+.headerTop li{
+    list-style: none;
+    margin-right: 35px;
+}
+
+.headerTop li:nth-last-child(1){
+    margin-right: 0;
+}
+.headerTop li:nth-child(3){
+    padding-right: 400px;;
+}
+
+.headerTop a{
+    text-decoration: none;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #26272d;
+}
+.headerTop a:hover{
+    opacity: 0.4;
+    color: #1b1c1e;
+    transition: 0.2s;
+}
+
+.headerTitle{
+    padding-top: 75px;
+    text-align: center;
+}
+
+.headerTitle h1{
+    margin: 0;
+    padding-bottom: 40px;
+    color: #26272d;
+    font-family: "Varela Round";
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.headerTitle h3{
+    margin: 0 auto;
+    max-width: 780px;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.headerButtonPos{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    position: relative;
+    right: 20px;
+}
+
+.headerButton{
+    cursor: pointer;
+    color: #26272d;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #dadcde;
+    background: rgba(255, 255, 255, 0.5)
+}
+
+.headerButtonPos button:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.fa-play{
+    padding-right: 15px;
+}
+
+.headerButtonPlay:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.headerIphone{
+    text-align: center;
+    padding-top: 55px;
+    position: relative;
+    top: 5px;
+}
+/* Header Section End */
+
+/* Feature Section Start*/
+
+.featureItems{
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.featureItem{
+    max-width: 490px;
+    text-align: left;
+}
+
+.featureItem h1{
+    margin: 0;
+    padding: 45px 0;
+    color: #26272d;
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+}
+
+.featureItem p{
+    margin: 0;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 35px;
+}
+
+/* Feature Section End */
+
+/* Iphone Feature Section Start */
+
+.iphoneFeature img{
+    max-width: 70%;
+    position: relative;
+    right: 150px;
+}
+
+.iphoneFeature{
+    display: flex;
+    padding-top: 250px;
+}
+
+.iphoneFeatureContent{
+    max-width: 470px;
+}
+
+.iphoneFeatureContent h1{
+    margin: 0;
+    padding-bottom: 70px;
+    color: #26272d;
+    font-family: "Varela Round";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+    text-align: left;
+}
+
+.iphoneFeatureContent p{
+    margin: 0;
+    padding-bottom: 40px;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+}
+
+.iphoneFeatureBtn{
+    padding-top: 35px;
+}
+
+.iphoneFeatureBtn1{
+    margin-right: 20px;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    border:none;
+    width: 202px;
+    height: 42px;
+    border-radius: 21px;
+    background-color: #267df4;
+}
+
+.iphoneFeatureBtn1:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+
+.iphoneFeatureBtn button:hover .fa-arrow-right{
+    color:#267df4;
+}
+
+.iphoneFeatureBtn2{
+    cursor: pointer;
+    color: #26272d;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    width: 142px;
+    height: 42px;
+    border-radius: 21px;
+    border: 1px solid #eaeaeb;
+    background-color: #fff;
+}
+
+.iphoneFeatureBtn2:hover{
+    color: #267df4;
+    background-color: #fff;
+    transition: 0.2s;
+    border: 1px solid #267df4;
+    border-radius: 25px;
+}
+/* iphone Feature Section End */
+
+/* Map Section Start */
+
+.mapFeature {
+    padding: 200px 0 200px 0;
+    position: relative;
+}
+
+.mapContent {
+    position: relative;
+	z-index: 1;
+	max-width: 470px;
+}
+
+.mapTitle {
+    font-family: var(--main-font);
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #26272d;
+    margin-top: 0;
+    margin-bottom: 64px;
+}
+
+.mapInfo {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.mapInfo p {
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+
+.partnersTitle {
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+    margin: 0;
+    padding-top: 28px;
+    padding-bottom: 31px;
+}
+
+.partnersLogos a:first-child {
+    margin-right: 30px;
+}
+
+.worldMap {
+    background-image: url('../img/world_map.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+	top: 200px;
+    right: 0;
+    width: 842px;
+    height: 496px;    
+}
+
+/* Map Section End */
+
+/*IPhone screens section start*/
+
+section.iphoneScreens{
+    padding: 150px 0 120px 0;
+    background-color: #f5f5f8;
+    width: 100%;
+    height: auto;
+}
+
+section.iphoneScreens .container{
+    max-width: none;
+    margin: 0;
+    padding: 0;
+}
+section.iphoneScreens .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.iphoneScreens .content .text{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.iphoneScreens .content .text h2{
+    font-family: var(--main-font);
+    color: #26272d;
+    font-size: 42px;
+    font-weight: 400;
+    margin: 0;
 
 }
+
+section.iphoneScreens .content .text div.line{
+    width: 50px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 50px 0 40px 0;
+    background-color:#267df4;
+}
+
+section.iphoneScreens .content .text p{
+ font-family: var(--secondary-font);
+ font-size: 12px;
+ font-weight: bold;
+ margin: 0 0 50px 0;
+ text-transform: uppercase;
+ color: #8c8f94;   
+}
+
+section.iphoneScreens .content .showroom{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+    overflow: hidden;
+}
+
+section.iphoneScreens .content .showroom .front{
+    position: absolute;
+    z-index: 1;
+}
+
+
+section.iphoneScreens .content .showroom .carusel{
+    list-style: none;
+    display: flex;
+    max-width: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+section.iphoneScreens .content .showroom .carusel > li{
+    
+    width: 320px;
+    -webkit-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
+    -moz-box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
+    box-shadow: 16px 16px 10px 0px rgba(0,0,0,0.15);
+    transition: 2s;
+    
+}
+
+.slick-slide{
+    margin: 0 30px;
+    
+}
+
+/*IPhone screens section end*/
+
+
+/* Ready to Buy Section Start */
+
+.readyToBuy {
+    padding: 90px 0px 85px 0px;
+    background-color: #f5f5f8;
+    text-align: center;
+}
+
+.readyToBuy p:first-of-type {
+    opacity: 0.5;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #3a3d4b;
+    margin-top: 0;
+    margin-bottom: 37px;
+}
+
+.readyToBuy p:first-of-type span {
+    font-weight: 700;
+}
+
+.readyToBuy h3 {
+    font-family: var(--main-font);
+    font-size: 42px;
+    line-height: 52px;
+    font-weight: 400;
+    color: #3a3d4b;
+    margin-top: 0;
+    margin-bottom: 47px;
+}
+
+.readyToBuy form {
+	display: inline-block;
+	margin-bottom: 65px;
+    position: relative;
+}
+
+.readyToBuy form input[type = "email"] {
+	width: 475px;
+    height: 50px;
+    border: 1px solid #22232828;
+    border-radius: 25px;
+	background: transparent;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #3a3d4b;
+    padding-left: 25px;
+}
+
+.readyToBuy form input[type = "email"]:focus {
+    outline: none;
+}
+
+.readyToBuy form button {
+	width: 164px;
+	height: 42px;
+	top: 6px;
+    right: 5px;
+	border-radius: 21px;
+	background-color: #6fc754;
+	color: #fff;
+	font-family: var(--secondary-font);
+	font-size: 16px;
+    line-height: 1.2;
+    font-weight: 400;
+	cursor: pointer;
+    position: absolute;
+    border: none;
+    outline: none;
+}
+
+.readyToBuy form button:hover {
+    color: #6fc754;
+    background-color: white;
+    border: 1px solid #6fc754;
+    transition: 0.2s;
+}
+
+.fa-arrow-right {
+    color: #fff;
+    padding-left: 18px;
+    font-size: 13px;
+}
+
+.readyToBuy form button:hover .fa-arrow-right {
+    color: #6fc754;
+}
+
+.readyToBuy p:last-of-type {
+    opacity: 0.3;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 1.2;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #3a3d4b;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.appStoreBtn {
+    display: inline-block;
+    position: relative;
+	background-color: #131315;
+	border-radius: 30px;
+	font-family: var(--secondary-font);
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+	position: relative;
+    text-decoration: none;
+    padding: 11px 41px 14px 69px;
+}
+
+.appStoreBtn span {
+    font-size: 23px;
+    line-height: 22px;
+}
+
+.appStoreBtn::before {
+    font-family: 'Font Awesome 5 Brands'; 
+    font-weight: 400; 
+    content: "\f179";
+	position: absolute;
+	left: 27px;
+	color: #fff;
+	font-size: 34px;
+}
+
+/* Ready to Buy Section End */
+
+/* Customers Section Start */
+
+.customersInner {
+    text-align: center;
+    padding-top: 130px;
+    position: relative;
+}
+  
+.imagesTrack {
+    display: flex;
+    justify-content: space-between;
+    width: 570px;
+    height: 130px;
+    margin: 0 auto;
+}
+  
+.customers .customerImage {
+    border-radius: 50%;
+    box-shadow: 14px 38px 40px 0px rgba(92,95,101,0.28);
+    width: 90px;
+    height: 90px;
+    opacity: 0.4;
+    transition: 0.5s linear;
+    cursor: pointer;
+}
+  
+.customers .imgActive {
+    width: 130px;
+    height: 130px;
+    opacity: 1;
+}
+  
+.customers .sliderControl {
+    position: absolute;
+    top: 175px;
+}
+  
+.customers .moveLeft {
+    left: 20px;
+    opacity: 0.4;
+    transition: opacity linear 0.2s;
+}
+
+.customers .moveLeft:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.customers .moveRight {
+    right: 20px;
+    opacity: 0.4;
+    transition: opacity linear 0.2s;
+}
+
+.customers .moveRight:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.testimonials {
+    min-width: 570px;
+    margin: 50px 0 30px;
+}
+
+.customers h4 {
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+    color: #26272d;
+    margin: 75px 0 50px 0;
+}
+
+.customers h5 {
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+    margin-top: 70px;
+}
+
+.customers p {
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #8c8f94;
+    margin: 0 0 30px 0;
+}
+
+.fa-star {
+    font-size: 20px;
+}
+
+.emptyStar {
+    color: #26272d;
+}
+
+.goldStar {
+    color: #f2bc3b;
+}
+  
+.sliderContainer {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 570px;
+}
+  
+.sliderTrack {
+    display: flex;
+    transition: all 0.5s ease;
+}
+      
+/* Customers Section End */
+
+
+/*Plan Section Start*/
+
+section.plans{
+    padding: 160px 0;
+    height: auto;
+    width: 100%;
+    background-color: #f4f4f5;
+}
+
+section.plans .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    min-height: 700px;
+}
+
+section.plans .content .left{
+    height: 700px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+section.plans .content .right{
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section.plans .content .left h3{
+    color: #26272d;
+    font-family: var(--main-font);
+    font-size: 42px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+
+section.plans .content .left .plan-title{
+    color: #26272d;
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+section.plans .content .left .info{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+    margin: 50px 0;
+
+}
+
+section.plans .content .left .more-options{
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0 ;
+
+}
+
+section.plans .content .left .more-options > a{
+    color: #267df4;
+}
+
+section.plans .content .left .plan-opntions{
+    border: 1px solid #d5d6d7;
+    max-width: 245px;
+    width: auto;
+    padding: 3px;
+    border-radius: 21px;
+    margin: 0 0 50px 0;
+    
+
+}
+section.plans .content .left .plan-opntions > button{
+    border: none;
+    background: none;
+    color: #26292c;
+    opacity: 0.4;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    font-weight: bold;
+    width: 120px;
+    height: 40px;
+    border-radius: 21px;
+
+}
+
+section.plans .content .left .plan-opntions > button:hover{
+    cursor: pointer;
+}
+
+section.plans .content .left .plan-opntions > button.active-btn{
+    background-color: white;
+    opacity: 1;
+    -webkit-box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+    box-shadow: 0px 25px 50px 0px rgba(0,0,0,0.30);
+
+}
+
+section.plans .content .right > div.Starter-Company{
+    display: none;
+}
+section.plans .content .right > div.Pro-Company{
+    display: none;
+}
+section.plans .content .right > div{
+    
+    padding: 50px;
+    min-height: 500px;
+    border-radius: 10px;
+
+    height: auto;
+    max-width: 300px;
+    background-color: #ebebed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.plans .content .right > div h4{
+    font-family: var(--secondary-font);
+    font-size: 32px;
+    margin: 0;
+
+    font-weight: 100;
+
+}
+
+section.plans .content .right > div .price{
+    width: auto;
+    border: 1px solid #d4d4d5;
+    text-align: center;
+    font-weight: bold;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-family: var(--secondary-font);
+    border-radius: 14px;
+    width: 60px;
+    height: 30px;
+    margin: 30px;
+    
+}
+
+section.plans .content .right > div .info{
+    font-family: var(--secondary-font);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 50px;
+    width: 200px;
+    color: #8c8f94;
+}
+
+section.plans .content .right > div ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-image: url("../img/checkIcon.png");
+}
+section.plans .content .right > div ul > li{
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 24px;
+    color: #26292c;
+    padding: 15px 0;
+}
+
+section.plans .content .right > div button{
+    margin: auto 0 0 0;
+    background: none;
+    border: 1px solid #267df4;
+    min-width: 200px;
+    min-height: 40px;
+    border-radius: 21px;
+    color: #267df4;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+section.plans .content .right > div:hover{
+    background-color: #ffffff;
+    padding: 70px;
+    -webkit-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    -moz-box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    box-shadow: 40px 25px 55px -18px rgba(0,0,0,0.24);
+    z-index: 1;
+    
+
+}
+
+section.plans .content .right > div button:hover{
+    background-color: #267df4;
+    color: #ffffff;
+    
+    
+}
+
+/*Plan Section End*/
+
+
+/* Subscription Section Start */
+
+.subscription{
+    height: auto;
+    width: 100%;
+    margin:  90px 0 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscription .container{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscription .container h2{
+    font-size: 42px;
+    font-family: var(--main-font);
+    margin: 0 0 20px 0;
+    font-weight: 400;
+    color: #26292c;
+    text-align: center;   
+}
+
+.subscription .container p{
+    margin: 0;
+    font-size: 14px;
+    font-family: var(--secondary-font);
+    color: var(--secondary-font-color);
+    text-align: center;
+}
+
+.subscription .container form{
+    position: relative;
+    margin: 30px  0;
+    border: 1px solid #22232828;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    width: 570px;
+    height: 40px;
+}
+
+.subscription .container form button{
+    cursor: pointer;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    color: white;
+    background-color: #6fc754;
+    width: 20%;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    border-radius: 25px;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px 20px;
+    position: absolute;
+}
+
+.subscription .container form button:hover{
+    color: #6fc754;
+    background-color: white;
+    border: 1px solid #6fc754;
+}
+
+.subscription .container form input[type = "email"]{
+    border: 2px solid white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 0 0 0 1px;      
+}
+
+.subscription .container form input[type = "email"]:focus{
+    border: none;
+    outline: none;
+}
+
+/* Subsciption Section End */
+
+/* Footer Section start */
+
+.divider {
+    height: 1px;
+	width: 100%;
+	background-color: #f4f4f4;
+}
+
+.footerContent {
+    display: flex;
+	justify-content: space-between;
+    margin-top: 90px;
+}
+.mainInfo {
+    max-width: 250px;
+}
+
+.mainInfo p {
+    margin-top: 35px;
+    margin-bottom: 32px;
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+}
+.mainInfo a img {
+    display: block;
+}
+
+.socialLinks {
+    margin-top: 40px;
+    margin-bottom: 130px;
+}
+.socialLinks a {
+	margin-right: 20px;
+}
+
+.socialLinks a:last-of-type {
+	margin-right: 0;
+}
+
+.socialLinks a i {
+	font-size: 18px;
+	color: #bdbec0;
+}
+
+.socialLinks a i:hover {
+    color: #6fc754;
+	opacity: 1;
+    transition: linear 0.2s;
+}
+
+.breadcrumbs {
+    display: flex;
+}
+
+.breadcrumbs ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.breadcrumbs ul:nth-of-type(1) {
+	margin-right: 90px;
+}
+
+.breadcrumbs ul:nth-of-type(2) {
+	margin-right: 65px;
+}
+
+.breadcrumbs ul:nth-of-type(3) {
+	margin-right: 75px;
+}
+
+.breadcrumbs ul li {
+    margin-bottom: 5px;
+}
+
+.breadcrumbs ul li:last-child {
+	margin-bottom: 0;
+}
+
+.breadcrumbs ul li:first-child {
+    font-family: var(--secondary-font);
+    font-size: 12px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+
+.breadcrumbs ul li a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #8c8f94;
+}
+
+.breadcrumbs ul li a:hover {
+	text-decoration: underline;
+}
+
+.copyrights {
+    padding: 35px 0 35px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.getCraftWorkLink {
+    font-family: var(--secondary-font);
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--secondary-font-color);
+}
+
+.getCraftWorkLink a {
+    color: #3b55e6;
+}
+
+.author {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+    font-size: 9px;
+    line-height: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #26272d;
+}
+.author span {
+    padding-top: 3px;
+}
+
+.author img {
+    margin: 0 10px 0 10px;
+}
+
+/* Footer Section End */
