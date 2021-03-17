@@ -227,6 +227,10 @@
         background-position: center;
         width: 80% !important;
     }
+    .iphoneFeature {
+        margin: 70px 0px !important;
+        height: 620px !important;
+    }
 }
 @media screen and (max-width: 505px) {
     .headerIphone img {
